@@ -63,7 +63,6 @@ Give an example
     6. Escribe "Guardians of the galaxy" y dale en el boton "Buscar Pelicula"
 ```
 Fotos:
-        ![Cliente](https://tucatalogo.digital/img_cvds/aplicacion)
         ![Cliente](https://tucatalogo.digital/img_cvds/peli.png)
 
 ## Built With
