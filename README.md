@@ -56,18 +56,20 @@ Give an example
 ```
 
 ## Deployment
+
 ...
+
     5. Consulte la pelicula:
+...
+
 
     ![Cliente](https://tucatalogo.digital/img_cvds/aplicacion)
 
-    6. Escribe "Guardians of the galaxy" y dale en el boton "Buscar Pelicula"
-
-        ![Cliente](https://tucatalogo.digital/img_cvds/peli.png)
-    
-
 ...
 
+    6. Escribe "Guardians of the galaxy" y dale en el boton "Buscar Pelicula"
+...
+        ![Cliente](https://tucatalogo.digital/img_cvds/peli.png)
 ## Built With
 
 * [omdbapi](https://www.omdbapi.com/ ) - API Gratuito
