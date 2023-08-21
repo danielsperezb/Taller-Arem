@@ -61,6 +61,8 @@ public class CacheInit {
             if (!response.startsWith(ERROR_MESSAGE)){
                 peliculas.put(nombre, response);
             }
+            //System.out.println("Busca la pelicula en la API");
+            //System.out.println(response);
             return response;
         }
     }

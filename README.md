@@ -1,12 +1,13 @@
-# TALLER AREM #1
+# TALLER AREM #1: APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
+
 
 Esta es una aplicación para consultar la información de películas de cine.  La aplicación recibe una frase de búsqueda del título, por ejemplo “Guardians of the galaxy”  y deberá mostrar el los datos de la película correspondiente. Para esto utilize el API gratuito de https://www.omdbapi.com/ (Se uso una clave gratuita). 
 
-## Getting Started
+## Empezando
 
 Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo en tu máquina local con fines de desarrollo y pruebas. Consulta la sección de implementación para obtener notas sobre cómo desplegar el proyecto en un sistema en vivo.
 
-### Prerequisites
+### Prerequisitos
 
 ¿Qué cosas necesitas instalar para el software?
 
@@ -17,11 +18,9 @@ Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo e
 
 ```
 
-### Installing
+### Instalacion
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Una serie paso a paso de ejemplos que te indican cómo configurar un entorno de desarrollo.
 
 ```
     1. Clonar este respositorio en su computadora.
@@ -33,13 +32,20 @@ Say what the step will be
 
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Ejecución de las pruebas.
 
-Explain how to run the automated tests for this system
+Explica cómo ejecutar las pruebas automatizadas para este sistema.
 
-### Break down into end to end tests
+### Desglosar en pruebas de extremo a extremo.
+
+Explica qué prueban estas pruebas y por qué.
+
+```
+Give an example
+```
+
+### Y pruebas de estilo de codificación.
 
 Explain what these tests test and why
 
@@ -47,15 +53,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
+## Implementación
 
 ```
     5. Consulte la pelicula:
@@ -65,7 +63,7 @@ Give an example
 Fotos:
         ![Cliente](https://tucatalogo.digital/img_cvds/peli.png)
 
-## Built With
+## Construido Con
 
 * [omdbapi](https://www.omdbapi.com/ ) - API Gratuito
 * [Maven](https://maven.apache.org/) - Dependency Management
@@ -81,15 +79,15 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).  -->
 
-## Authors
+## Autores
 
 * **Daniel Esteban Perez Bohorquez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 
-## License
+## Licencia
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Agradecimientos
 
-* APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
+* Escuela Colombiana de Ingenieria

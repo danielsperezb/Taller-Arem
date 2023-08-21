@@ -41,16 +41,22 @@ public class SocketInit {
                     String inputLine, outputLine;
 
                     while ((inputLine = in.readLine()) != null) {
+                        System.out.println("Antes del replace");
+                        System.out.println(inputLine);
                         if (inputLine.startsWith("GET /?name=")){
                             inputLine = inputLine.replace("GET /name=", "");
                             inputLine = inputLine.replace(" HTTP/1.1", "");
                             response = inputLine;
                         }
+                        
 
                         if (!in.ready()) {
                             break;
                         }
                     }
+                    
+                    System.out.println("Despuess del replace");
+                    System.out.println(response);
 
                     outputLine = "HTTP/1.1 200 \r\n" +
                             "Content-Type: application/json \r\n" +
