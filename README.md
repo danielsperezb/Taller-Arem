@@ -42,16 +42,41 @@ Explica cómo ejecutar las pruebas automatizadas para este sistema.
 Explica qué prueban estas pruebas y por qué.
 
 ```
-Give an example
+
+CacheInitTest
+
+    1. Prueba debeCrearUnaInstanciaNueva:
+
+    Verificar que se pueda crear una nueva instancia de CacheInit utilizando su método estático getInstance().Esto garantiza que la clase CacheInit se pueda usar y crear instancias correctamente en todo el código que lo utilice.
+
+
+    2.Prueba debeDevolverPeliculaDeLaCache:
+
+    Probar si el método buscarPeliculaPorNombre devuelve correctamente una película que ya está en la caché.
+
+
+    3. Prueba debeDevolverPeliculaDeLaApiExterna:
+
+    Asegurarse de que el método buscarPeliculaPorNombre busque en la API externa cuando la película no está en la caché.
+
 ```
 
-### Y pruebas de estilo de codificación.
+```
 
-Explain what these tests test and why
+Cliente Java para Tests concurrente, se realizaron dos pruebas con 5 peliculas que se encuentran de forma correcta y otras 5 que no se encontraron.
+
+
+4. Prueba testConcurrenciaCincoPeliculasServicioExterno()
+
+5. testConcurrenciaNoEncontrarPeliculas()
+
+En las pruebas se usaron el fundamento: given,when y then.
+
 
 ```
-Give an example
-```
+
+
+
 
 ## Implementación
 
@@ -81,8 +106,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Autores
 
-* **Daniel Esteban Perez Bohorquez** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
+* **Daniel Esteban Perez Bohorquez** -
 
 ## Licencia
 
